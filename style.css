@@ -1,0 +1,222 @@
+*{
+    Border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    
+}
+.fundo{
+    opacity: 0.95;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    background: linear-gradient(85deg, #1e2325 0%, #252A46 100%);
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.center{
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+h1{
+    color: #f2f2f2ea;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+}
+
+h3,h4,a{
+    text-decoration: none;
+    color: #f2f2f2ea;
+    font-family:'Raleway', sans-serif;
+    margin:5px;
+}
+.dados a {
+    font-size: 25px;
+}
+
+.dados h4{
+    font-size: 25px;
+    margin: 0px;
+}
+
+h5{
+    color: #f2f2f2ea;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+h3{
+    display: grid;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    max-width: 1300px;
+}
+
+.dados{
+    margin-right: 30px;
+    display: grid;
+    justify-content: center;
+    max-height: 500px;
+    max-width: 800px;
+    
+}
+
+img{
+    border-radius: 10px;
+}
+
+li{
+    list-style: none;
+    font-style: bold;
+    font-family: 'Oswald', sans-serif;
+    margin: 15px ;
+    align-content: center;
+    color: white;
+}
+
+body{
+    height: 1200px;
+    width: 1200px;
+    position: relative;
+    justify-items: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+header {
+    display: flex;
+    width: 1fr, 2fr;
+}
+
+.skills{
+    max-width: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+   flex-wrap: wrap;
+   
+}
+
+.skills #programas{
+    background-color: rgb(65, 75, 95);   
+    border-radius: 30px; 
+    display: flex;
+    margin: 30px;
+    align-items: center;
+}
+
+#programas img{
+    width: 60px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.empresas img{
+    height: 90px;
+}
+
+strong{
+    font-family: 'Raleway', sans-serif;
+    color: #F2F2F2;
+    margin: 10px;
+}
+
+.empresas{
+    margin-top: 30px;
+    display: flex;
+    width: 1200px;
+    height: 300px;
+    gap: 10px;
+    justify-content: space-evenly;
+    justify-self: center;
+    animation: fade 1500ms ;
+    animation-delay: 50ms;
+}
+
+#macctub{
+    width: 450px;
+    background-color: rgb(65, 75, 95);  
+    border-radius: 30px;
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+}
+
+#pe{
+    width: 450px;
+    width: 350px;
+    background-color: rgb(65, 75, 95);    
+    border-radius: 30px;
+    padding: 20px; 
+}
+
+#viva{
+    align-content: center;
+    width: 450px;
+    width: 350px;
+    background-color: rgb(65, 75, 95);   
+    border-radius: 30px; 
+    padding: 20px;
+}
+
+.fotos img{
+    max-width: 300px;
+    max-height: 185px;
+    width:300px;
+    height:185px;
+    display: flex;
+    gap: 10px;
+    
+}
+.Trabalhos{
+    display: grid;
+    justify-content: center;
+    width: 1300px;
+    height: 2100px;
+    background-color: rgb(65, 75, 95);   
+    border-radius: 30px; 
+    margin-top: 50px;
+}
+
+.fotos{
+    display: flex;
+    animation: fade 3000ms ;
+}
+
+h4{
+    font-size: 30px;
+    margin: 20px;
+}
+
+footer{
+    opacity: 0.3;
+    display: grid;
+    font-size: 20px;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #F2F2F2;
+}
+
+@keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
